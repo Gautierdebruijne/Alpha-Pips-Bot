@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alpha Bot", "Alpha Bot\Alpha Bot.csproj", "{B1596EE5-6E11-4881-AA16-75B29F14F52E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1596EE5-6E11-4881-AA16-75B29F14F52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1596EE5-6E11-4881-AA16-75B29F14F52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1596EE5-6E11-4881-AA16-75B29F14F52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1596EE5-6E11-4881-AA16-75B29F14F52E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {680148E4-BD27-44E2-9B0C-B4250D2EF745}
+	EndGlobalSection
+EndGlobal
