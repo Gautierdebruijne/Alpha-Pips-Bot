@@ -635,5 +635,23 @@ namespace Alpha_Bot.Modules
 
             await Context.Channel.SendMessageAsync("", false, eb.Build());
         }
+
+        [Command("Mindset")]
+        public async Task Mindset()
+        {
+            var eb = new EmbedBuilder().WithTitle("Welcome to our Mindset-feed!")
+                .WithDescription("In this channel you'll find everything about Mindset. We will share E-Books, Mindset video’s and so much more. Whether you are trading or building, Mindset is a key to your success in every aspect of your life!!")
+
+                .WithImageUrl("https://amerofinanciero.com/wp-content/uploads/2019/11/thumb600_IMG_20191007_165757.png")
+                .WithThumbnailUrl("https://cdn.discordapp.com/emojis/710464998601785396.png?v=1")
+                .WithColor(Color.Blue)
+                .WithFooter(footer =>
+                {
+                    footer
+                        .WithText("IM Mastery Academy® | Alpha Pips™ \n\n ⚠️ Trading involves risk, past profits do not guarantee future results and we are not financial advisors!");
+                });
+
+            await Context.Channel.SendMessageAsync("", false, eb.Build());
+        }
     }
 }
