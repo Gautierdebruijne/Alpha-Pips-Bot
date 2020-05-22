@@ -658,7 +658,7 @@ namespace Alpha_Bot.Modules
         public async Task TradeIdeas()
         {
             var eb = new EmbedBuilder().WithTitle("Hi there wolve, text comes here ")
-                .WithDescription("This rank will give you access to our <#707991320173477928> channel.)
+                .WithDescription("This rank will give you access to our <#707991320173477928> channel.")
                 
                 .AddField("\u200B", "*To obtain the role, click on :alpha: below!*", false)
 
