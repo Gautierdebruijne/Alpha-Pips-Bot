@@ -653,5 +653,26 @@ namespace Alpha_Bot.Modules
 
             await Context.Channel.SendMessageAsync("", false, eb.Build());
         }
+
+        [Command("tradeideas")]
+        public async Task TradeIdeas()
+        {
+            var eb = new EmbedBuilder().WithTitle("Hi there wolve, text comes here ")
+                .WithDescription("This rank will give you access to our <#707991320173477928> channel.)
+                
+                .AddField("\u200B", "*To obtain the role, click on :alpha: below!*", false)
+
+                .WithImageUrl("https://amerofinanciero.com/wp-content/uploads/2019/11/thumb600_IMG_20191007_165757.png")
+                .WithThumbnailUrl("https://cdn.discordapp.com/emojis/707976352241942539.png?v=1")
+                .WithColor(Color.Blue)
+                .WithFooter(footer =>
+                {
+                    footer
+                        .WithText("IM Mastery Academy® | Alpha Pips™ \n\n ⚠️ Trading involves risk, past profits do not guarantee future results and we are not financial advisors!");
+                });
+
+            await Context.Channel.SendMessageAsync("", false, eb.Build());
+        }
     }
+
 }
